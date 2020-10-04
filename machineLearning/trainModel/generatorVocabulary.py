@@ -20,7 +20,7 @@ class GenVocab():
                 word_list = self.get_word(line.strip())
         return word_list
 
-    def ergodic_file(self):
+    def run(self):
         result_word = []
         for file_path in self.train_data_path_list:
             word_list = self.open_file(file_path)
@@ -37,4 +37,4 @@ class GenVocab():
 
 if __name__ == '__main__':
     gv = GenVocab("./trainData", "./vocabulary.txt")
-    gv.ergodic_file()
+    gv.run()
