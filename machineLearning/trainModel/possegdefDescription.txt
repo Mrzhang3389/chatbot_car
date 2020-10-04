@@ -1,0 +1,11 @@
+我们主要采以 jieba 提供的通用型命名实体工具包,并添加部分人工标注的命名实体,其添加的细则如下表所示：
+命名实体类型      自定义词性
+汽车名称          carname
+汽车图像          carimg
+汽车厂商          carfactory
+汽车车型          carmodel
+上市时间          carmarket
+汽车安全          carsafe
+汽车动力          carpower
+汽车空间          carspace
+汽车经济性         careco
