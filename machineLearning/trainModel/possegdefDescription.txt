@@ -2,6 +2,7 @@
 命名实体类型      自定义词性
 汽车名称          carname
 汽车图像          carimg
+汽车价格          carprice
 汽车厂商          carfactory
 汽车车型          carmodel
 上市时间          carmarket
